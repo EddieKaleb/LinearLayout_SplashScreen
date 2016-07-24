@@ -5,12 +5,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="br.edu.ifpb.linearlayout.SplashScreen"
-    android:weightSum="1">
+    android:weightSum="1"
+    android:orientation="vertical">
 
     <ImageView
-        android:layout_width="fill_parent"
-        android:layout_height="match_parent"
+        android:layout_width="309dp"
+        android:layout_height="413dp"
         android:id="@+id/imageView"
         android:src="@drawable/android"
-        android:layout_weight="0.56" />
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Android LinearLayout Application"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.24"
+        android:textSize="40px" />
 </LinearLayout>
