@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Weight_Activity" />
-        <activity android:name=".LinearAninhadoActivity"></activity>
+        <activity android:name=".LinearAninhadoActivity" />
+        <activity android:name=".ActivityLayoutManually"></activity>
     </application>
 
 </manifest>
