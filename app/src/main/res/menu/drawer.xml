@@ -20,5 +20,11 @@
             android:checked="false"
             android:icon="@drawable/gravity"
             android:title="@string/gravity_string" />
+
+        <item
+            android:id="@+id/weight"
+            android:checked="false"
+            android:icon="@drawable/libra"
+            android:title="@string/gravity_string" />
     </group>
 </menu>
