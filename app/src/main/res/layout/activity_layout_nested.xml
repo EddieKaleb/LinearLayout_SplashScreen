@@ -16,7 +16,7 @@
             android:id="@+id/tvTextToolbar"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="Pseudo-instagram"
+            android:text="instagram"
             android:textColor="@color/White"
             android:typeface="serif"/>
 

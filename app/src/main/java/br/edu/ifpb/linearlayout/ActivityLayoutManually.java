@@ -20,19 +20,19 @@ public class ActivityLayoutManually extends AppCompatActivity {
         //setContentView(R.layout.activity_activity_layout_manually);
 
         TextView tv1 = new TextView(this);
-        tv1.setText("FIRST");
+        tv1.setText("BELIEVE");
         tv1.setTextSize(100);
         tv1.setGravity(Gravity.CENTER);
 
         TextView tv2 = new TextView(this);
         tv2.setTextSize(100);
         tv2.setGravity(Gravity.CENTER);
-        tv2.setText("MIDDLE");
+        tv2.setText("IN");
 
         TextView tv3 = new TextView(this);
         tv3.setTextSize(100);
         tv3.setGravity(Gravity.CENTER);
-        tv3.setText("LAST");
+        tv3.setText("YOUSERLF");
 
         LinearLayout ll = new LinearLayout(this);
         ll.setOrientation(LinearLayout.VERTICAL);
