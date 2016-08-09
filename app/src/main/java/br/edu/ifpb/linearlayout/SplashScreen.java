@@ -1,31 +1,33 @@
 package br.edu.ifpb.linearlayout;
 
-import android.app.Activity;
-import android.content.Intent;
-import android.graphics.drawable.AnimationDrawable;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.ImageView;
+
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.Window;
 
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class SplashScreen extends Activity {
+
+
+public class SplashScreen extends Activity implements Runnable {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
 
-        new Timer().schedule(new TimerTask() {
+        Handler handler = new Handler();
+        handler.postDelayed(this, 3000);
+    }
 
-            @Override
-            public void run() {
-                finish();
-                Intent intent = new Intent();
-                intent.setClass(SplashScreen.this, MainActivity.class);
-                startActivity(intent);
-            }
-        }, 6000);
+    public void run(){
+        startActivity(new Intent(this, MainActivity.class));
+        finish();
     }
 }
