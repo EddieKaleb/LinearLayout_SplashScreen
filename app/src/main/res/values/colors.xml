@@ -2,7 +2,10 @@
 <resources>
     <color name="PrimaryColor">#2196F3</color>
     <color name="PrimaryDarkColor">#1976D2</color>
-    <color name="toolbarInsta">#568dba</color>
+    <color name="toolbar">#568dba</color>
+    <color name="right">#7B1FA2</color>
+    <color name="center">#FF4081</color>
+    <color name="left">#00796B</color>
     <color name="White">#FFFFFF</color>
 
 

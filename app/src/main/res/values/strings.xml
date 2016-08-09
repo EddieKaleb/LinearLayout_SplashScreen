@@ -6,12 +6,11 @@
     <string name="navigation_item_2">Events</string>
     <string name="manually_string">Layout manual</string>
     <string name="nested_string">Layout aninhado</string>
-    <string name="gravity_string">Gravidade</string>
+    <string name="gravity_string_img">Gravidade Img</string>
+    <string name="gravity_string">Gravidade text</string>
+    <string name="weight_string">Peso</string>
     <string name="draft_string">Drafts</string>
     <string name="subheader">Subheader</string>
-    <string name="trash_string">Trash</string>
-    <string name="all_mail_string">All mails</string>
-    <string name="spam_string">Spams</string>
     <string name="closeDrawer">Mostrar</string>
     <string name="openDrawer">Ocultar</string>
 </resources>

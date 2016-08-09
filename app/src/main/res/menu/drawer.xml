@@ -10,13 +10,13 @@
             android:title="@string/nested_string" />
 
         <item
-            android:id="@+id/manually"
+            android:id="@+id/gravity"
             android:checked="false"
-            android:icon="@drawable/java_logo"
-            android:title="@string/manually_string" />
+            android:icon="@drawable/gravity"
+            android:title="@string/gravity_string_img" />
 
         <item
-            android:id="@+id/gravity"
+            android:id="@+id/gravityText"
             android:checked="false"
             android:icon="@drawable/gravity"
             android:title="@string/gravity_string" />
@@ -25,6 +25,6 @@
             android:id="@+id/weight"
             android:checked="false"
             android:icon="@drawable/libra"
-            android:title="@string/gravity_string" />
+            android:title="@string/weight_string" />
     </group>
 </menu>

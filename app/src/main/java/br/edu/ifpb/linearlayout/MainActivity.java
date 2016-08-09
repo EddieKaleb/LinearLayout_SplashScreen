@@ -46,10 +46,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(MenuItem menuItem) {
 
-
-                Fragment fragment = null;
-                Class fragmentClass;
-
                 //Checking if the item is in checked state or not, if not make it in checked state
                 if(menuItem.isChecked()) menuItem.setChecked(false);
                 else menuItem.setChecked(true);
@@ -60,7 +56,6 @@ public class MainActivity extends AppCompatActivity {
                 //Check to see which item was being clicked and perform appropriate action
                 switch (menuItem.getItemId()){
 
-
                     //Replacing the main content with ContentFragment Which is our Inbox View;
                     case R.id.nested:
                         Toast.makeText(getApplicationContext(),"Layout nested Selected",Toast.LENGTH_SHORT).show();
@@ -69,10 +64,6 @@ public class MainActivity extends AppCompatActivity {
 
                     // For rest of the options we just show a toast on click
 
-                    case R.id.manually:
-                        Toast.makeText(getApplicationContext(),"Layout manually Selected",Toast.LENGTH_SHORT).show();
-                        setFragment(R.layout.activity_manually);
-                        return true;
                     case R.id.gravity:
                         Toast.makeText(getApplicationContext(),"Layout gravity Selected",Toast.LENGTH_SHORT).show();
                         setFragment(R.layout.activity_gravity);
@@ -81,9 +72,13 @@ public class MainActivity extends AppCompatActivity {
                         Toast.makeText(getApplicationContext(),"Layout weight Selected",Toast.LENGTH_SHORT).show();
                         setFragment(R.layout.activity_weight);
                         return true;
+                    case R.id.gravityText:
+                        Toast.makeText(getApplicationContext(),"Layout weight Selected",Toast.LENGTH_SHORT).show();
+                        setFragment(R.layout.activity_gravity2);
+                        return true;
                     default:
                         Toast.makeText(getApplicationContext(),"Somethings Wrong",Toast.LENGTH_SHORT).show();
-                        setFragment(R.drawable.init);
+                        setFragment(R.layout.activity_layout_nested);
                         return true;
 
                 }
