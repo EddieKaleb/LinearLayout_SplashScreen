@@ -16,7 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ActivityLayoutManually"></activity>
+        <activity android:name=".ActivityLayoutManually" />
+        <activity
+            android:name=".Weight"
+            android:label="@string/title_activity_weight"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>

@@ -13,4 +13,5 @@
     <string name="subheader">Subheader</string>
     <string name="closeDrawer">Mostrar</string>
     <string name="openDrawer">Ocultar</string>
+    <string name="title_activity_weight">Weight</string>
 </resources>
